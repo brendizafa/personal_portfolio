@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+   
+}
+
+body{
+    background-image: url(img/background.jpeg);
+    padding: 10px;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.about_me {
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin top; 30px;
+width: 100%;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89.1);
+
+}
+
+h2{
+    font-family:  Helvetica, sans-serif;
+    font-size: 25px;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89.1);
+
+}
+
+h3{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89.1);
+
+}
+
+p{
+    margin-top: 10px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: initial;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89.1);
+
+}
+
+.profileimg{
+    margin-top: 15px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: whitesmoke;
+    height: 300px;
+    
+}
+
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.networks{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+
+a{ 
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.logo{
+    width: 30px;
+    margin: 5px;
+}
+
+.email{
+    margin: 20px 0px 20px 0px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 6%;
+    font-family: calibri;
+    transition: ease-in-out;
+
+    }
+
+.email:hover{
+    background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+   
